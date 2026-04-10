@@ -1,4 +1,9 @@
 ## 모든 모듈에 있는 application.yaml파일은 git 관리에서 제외한다.
+# application.yaml 정확히 이 이름은 github에 안 올라가게 했음
+#  prod.yaml github에  올라가도 상관없다.
+# -prod는 올라가도 상관없는 내용 혹은 환경변수 사용하겠끔 세팅
+
+
 **/src/main/resources/application.yaml
 
 HELP.md
